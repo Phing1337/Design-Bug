@@ -1,0 +1,53 @@
+# Figma Design Bug Reporter Plugin
+
+## Core Functionality
+1. When any frame(s) are selected and the plugin is open, allow bug report details to be added in the plugin UI.
+2. On clicking "Create Bug", generate a new frame 56 pixels to the right of each selected frame.
+3. Populate the new frame with the bug report details in a modern card style.
+
+## Bug Report Fields
+- Name
+- Description
+- Steps to recreate
+- Expected behavior
+- Actual behavior
+- Priority
+- Type
+- Area
+
+## UI/UX Requirements
+- Include a "Create Bug" button
+- Add a status message area for user feedback
+- Include a "Copy Error" button for copying error messages to the clipboard
+
+## Visual Design
+Theme: Modern bug report card
+Aesthetic qualities:
+- Clean and minimalist design
+- White background with subtle shadow
+- Rounded corners
+- Clear typography hierarchy
+
+## Technical Considerations
+- Font loading: Load required fonts (Inter Regular and Medium) before creating text nodes
+- Error handling: Wrap main functionality in try-catch blocks
+- Frame selection: Verify that frame(s) are selected before proceeding
+- Default values: Provide default text for empty fields
+- Styling: Apply modern card styling to the bug report frame
+
+## Implementation Steps
+1. Create UI (ui.html) with form fields and status/debug areas
+2. Implement main plugin logic (code.js):
+   a. Set up message handling between UI and plugin
+   b. Implement frame selection validation
+   c. Load required fonts
+   d. Create and position new frame(s) next to the selected frame(s)
+   e. Style the new frame(s) as modern cards
+   f. Add styled text elements to the new frame(s)
+   g. Handle errors and provide user feedback
+3. Test with various scenarios and frame structures
+
+## Future Enhancements (if needed)
+- Add more bug report fields
+- Implement custom color schemes
+- Integrate with bug tracking systems

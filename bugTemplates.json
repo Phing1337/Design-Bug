@@ -1,0 +1,22 @@
+{
+    "alignment": {
+      "name": "Alignment Issue",
+      "description": "Bruh, these elements are all over the place. Fix the alignment, please."
+    },
+    "color": {
+      "name": "Color Contrast Issue",
+      "description": "Yo, I can't even read this. The color contrast is whack."
+    },
+    "spacing": {
+      "name": "Spacing Issue",
+      "description": "This spacing is sus. Make it consistent, fam."
+    },
+    "typo": {
+      "name": "Typographical Error",
+      "description": "Oops, there's a typo here. Gotta fix that ASAP."
+    },
+    "responsive": {
+      "name": "Responsive Design Issue",
+      "description": "This design is not vibing on different screens. Needs to be more responsive."
+    }
+  }

@@ -1,0 +1,19 @@
+{
+  "name": "Design Bug",
+  "id": "1377311550005859474",
+  "api": "1.0.0",
+  "main": "code.js",
+  "capabilities": [],
+  "enableProposedApi": false,
+  "documentAccess": "dynamic-page",
+  "editorType": [
+    "figma",
+    "figjam"
+  ],
+  "ui": "ui.html",
+  "networkAccess": {
+    "allowedDomains": [
+      "https://www.transparenttextures.com"
+    ]
+  }
+}
