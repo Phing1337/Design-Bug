@@ -1,40 +1,36 @@
-Below are the steps to get your plugin running. You can also find instructions at:
+# Design Bug Reporter - Figma Plugin
 
-  https://www.figma.com/plugin-docs/plugin-quickstart-guide/
+## Overview
+The Design Bug Reporter is a Figma plugin that streamlines the process of creating and positioning bug reports within your design files. It allows designers and developers to quickly document design issues, inconsistencies, or areas needing improvement directly within Figma.
 
-This plugin template uses Typescript and NPM, two standard tools in creating JavaScript applications.
+## Features
+- **Pre-defined Bug Templates**: Choose from common design issues like alignment, color contrast, spacing, typography, and responsive design problems.
+- **Custom Bug Reports**: Create custom bug reports with user-defined titles and descriptions.
+- **Flexible Positioning**: Place bug reports in four different positions relative to the selected object: top, right, bottom, or left.
+- **Visual Position Selector**: Intuitive visual interface for selecting the bug report position.
+- **Responsive UI**: The plugin interface adjusts to provide a comfortable user experience.
 
-First, download Node.js which comes with NPM. This will allow you to install TypeScript and other
-libraries. You can find the download link here:
+## How to Use
+1. Select an object in your Figma design where you want to report a bug.
+2. Open the Design Bug Reporter plugin.
+3. Choose a bug template from the dropdown or select "Custom Bug" to create your own.
+4. If using a custom bug, enter a title and description for the bug.
+5. Use the position selector to choose where the bug report should appear relative to the selected object.
+6. Click "Create Bug" to add the bug report to your design.
 
-  https://nodejs.org/en/download/
+## Installation
+[Include instructions on how to install the plugin in Figma]
 
-Next, install TypeScript using the command:
+## Development
+This plugin is built using HTML, CSS, and JavaScript. It utilizes Figma's plugin API to interact with the design file.
 
-  npm install -g typescript
+To set up the development environment:
+1. Clone this repository.
+2. [Include any necessary setup steps, like installing dependencies]
+3. [Explain how to run the plugin in development mode]
 
-Finally, in the directory of your plugin, get the latest type definitions for the plugin API by running:
+## Contributing
+We welcome contributions to improve the Design Bug Reporter plugin. Please feel free to submit issues, feature requests, or pull requests.
 
-  npm install --save-dev @figma/plugin-typings
-
-If you are familiar with JavaScript, TypeScript will look very familiar. In fact, valid JavaScript code
-is already valid Typescript code.
-
-TypeScript adds type annotations to variables. This allows code editors such as Visual Studio Code
-to provide information about the Figma API while you are writing code, as well as help catch bugs
-you previously didn't notice.
-
-For more information, visit https://www.typescriptlang.org/
-
-Using TypeScript requires a compiler to convert TypeScript (code.ts) into JavaScript (code.js)
-for the browser to run.
-
-We recommend writing TypeScript code using Visual Studio code:
-
-1. Download Visual Studio Code if you haven't already: https://code.visualstudio.com/.
-2. Open this directory in Visual Studio Code.
-3. Compile TypeScript to JavaScript: Run the "Terminal > Run Build Task..." menu item,
-    then select "npm: watch". You will have to do this again every time
-    you reopen Visual Studio Code.
-
-That's it! Visual Studio Code will regenerate the JavaScript file every time you save.
+## License
+[Include your chosen license information here]
